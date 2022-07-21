@@ -1,7 +1,7 @@
 {
-  "name": "pm2-logrotate",
-  "version": "2.7.0",
-  "description": "Module to rotate logs of every pm2 application",
+  "name": "pm2-logrotate-windows",
+  "version": "2.7.1",
+  "description": "Module to rotate logs of every pm2 application, fixed for Windows",
   "main": "app.js",
   "dependencies": {
     "graceful-fs": "^4.2.2",
@@ -13,21 +13,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joni SHKURTI",
+  "author": "Joni SHKURTI, anileragani, Kade Robertson",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pm2-hive/pm2-logrotate.git"
+    "url": "git+https://github.com/kade-robertson/pm2-logrotate.git"
   },
   "bugs": {
-    "url": "https://github.com/pm2-hive/pm2-logrotate/issues"
+    "url": "https://github.com/kade-robertson/pm2-logrotate/issues"
   },
-  "homepage": "https://github.com/pm2-hive/pm2-logrotate",
+  "homepage": "https://github.com/kade-robertson/pm2-logrotate",
   "license": "MIT",
   "apps": [
     {
       "name": "pm2-logrotate",
       "script": "app.js",
-      "max_memory_restart" : "500M"
+      "max_memory_restart": "500M"
     }
   ],
   "config": {
